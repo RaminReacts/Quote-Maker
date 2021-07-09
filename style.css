@@ -85,6 +85,10 @@ button:active {
   font-size: 1.5rem;
 }
 
+#developer {
+  color: rgba(0, 0, 0, 0.15);
+}
+
 /* Loader */
 [data-load] {
   width: 5em;
