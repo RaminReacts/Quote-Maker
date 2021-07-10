@@ -35,7 +35,7 @@ async function getQuote(){
         }
         quoteText.innerText = generatedQuote.text;
         // if Quote author is '', write "-Unknown"
-        if (generatedQuote.author === '') {
+        if (generatedQuote.author === null) {
             authorText.innerText = '-Unknown';
         } else {
             authorText.innerText = '-'+ generatedQuote.author;
